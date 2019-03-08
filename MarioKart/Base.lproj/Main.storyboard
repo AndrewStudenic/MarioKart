@@ -18,9 +18,8 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleAspectFill" fixedFrame="YES" insetsLayoutMarginsFromSafeArea="NO" image="background" translatesAutoresizingMaskIntoConstraints="NO" id="HEc-AY-GVf">
+                            <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleAspectFill" insetsLayoutMarginsFromSafeArea="NO" image="background" translatesAutoresizingMaskIntoConstraints="NO" id="HEc-AY-GVf">
                                 <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
-                                <autoresizingMask key="autoresizingMask"/>
                                 <gestureRecognizers/>
                                 <connections>
                                     <outletCollection property="gestureRecognizers" destination="5Xw-dZ-7hx" appends="YES" id="hqL-eS-qaw"/>
@@ -83,6 +82,12 @@
                             </imageView>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="HEc-AY-GVf" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="Izd-DS-F7A"/>
+                            <constraint firstItem="HEc-AY-GVf" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="SH3-Pn-npg"/>
+                            <constraint firstItem="HEc-AY-GVf" firstAttribute="bottom" secondItem="6Tk-OE-BBY" secondAttribute="bottom" id="XE0-XE-0Pk"/>
+                            <constraint firstItem="HEc-AY-GVf" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="evq-eJ-AU9"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                     <connections>
